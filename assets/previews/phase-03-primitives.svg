@@ -1,0 +1,269 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 18px; font-weight: 700; fill: #C5CEDB; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 12px; fill: #A78BFA; }
+      .section-label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 13px; font-weight: 600; fill: #4DEBFF; letter-spacing: 1px; }
+      .caption { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 11px; fill: #8F9CAE; }
+      .hex-code { font-family: monospace; font-size: 10px; fill: #C5CEDB; }
+      .spec-bg { fill: #0D0E15; }
+      .card-dark { fill: #1E1E1E; stroke: #2D3139; stroke-width: 1; }
+      .card-deep { fill: #0A0A0F; stroke: #232530; stroke-width: 1; }
+      .card-light { fill: #F5F5F5; stroke: #D8DCE3; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="520" class="spec-bg"/>
+  <rect x="20" y="20" width="760" height="480" rx="8" fill="#12131C" stroke="#232538" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="45" y="55" class="title">XEOO ICON THEME — DESIGN SYSTEM SPECIMEN SHEET</text>
+  <text x="45" y="75" class="subtitle">Phase 03: Geometric Primitives, Color Tokens &amp; Base Carrier Verification</text>
+  <line x1="45" y1="90" x2="755" y2="90" stroke="#232538" stroke-width="1.5"/>
+
+  <!-- Section 1: Color Tokens -->
+  <text x="45" y="118" class="section-label">01. DESIGN TOKENS (CONTROLLED PALETTE)</text>
+  
+  <!-- Swatches -->
+  <!-- Neon Cyan -->
+  <rect x="45" y="132" width="75" height="30" rx="4" fill="#4DEBFF"/>
+  <text x="45" y="176" class="caption">Neon Cyan</text>
+  <text x="45" y="190" class="hex-code">#4DEBFF</text>
+
+  <!-- Primary Violet -->
+  <rect x="135" y="132" width="75" height="30" rx="4" fill="#A78BFA"/>
+  <text x="135" y="176" class="caption">Prim. Violet</text>
+  <text x="135" y="190" class="hex-code">#A78BFA</text>
+
+  <!-- Cyber Mint -->
+  <rect x="225" y="132" width="75" height="30" rx="4" fill="#63F5B2"/>
+  <text x="225" y="176" class="caption">Cyber Mint</text>
+  <text x="225" y="190" class="hex-code">#63F5B2</text>
+
+  <!-- Plasma Pink -->
+  <rect x="315" y="132" width="75" height="30" rx="4" fill="#FF65C3"/>
+  <text x="315" y="176" class="caption">Plasma Pink</text>
+  <text x="315" y="190" class="hex-code">#FF65C3</text>
+
+  <!-- Solar Amber -->
+  <rect x="405" y="132" width="75" height="30" rx="4" fill="#FFC66D"/>
+  <text x="405" y="176" class="caption">Solar Amber</text>
+  <text x="405" y="190" class="hex-code">#FFC66D</text>
+
+  <!-- Titanium -->
+  <rect x="495" y="132" width="75" height="30" rx="4" fill="#C5CEDB"/>
+  <text x="495" y="176" class="caption">Titanium</text>
+  <text x="495" y="190" class="hex-code">#C5CEDB</text>
+
+  <!-- Void Slate -->
+  <rect x="585" y="132" width="75" height="30" rx="4" fill="#1E202E" stroke="#373B4D" stroke-width="1"/>
+  <text x="585" y="176" class="caption">Void Slate</text>
+  <text x="585" y="190" class="hex-code">#1E202E</text>
+
+  <!-- Deep Obsidian -->
+  <rect x="675" y="132" width="75" height="30" rx="4" fill="#12131C" stroke="#373B4D" stroke-width="1"/>
+  <text x="675" y="176" class="caption">Deep Obsid.</text>
+  <text x="675" y="190" class="hex-code">#12131C</text>
+
+  <!-- Section 2: Geometric Primitives -->
+  <text x="45" y="225" class="section-label">02. GEOMETRIC PRIMITIVES &amp; CONSTRUCTION RULES</text>
+
+  <!-- Primitive 1: 45° Chamfer Fold -->
+  <rect x="45" y="240" width="125" height="75" rx="4" fill="#181A26" stroke="#2A2D3D" stroke-width="1"/>
+  <g transform="translate(60, 252)">
+    <path d="M 0 0 L 28 0 L 40 12 L 40 40 L 0 40 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2"/>
+    <path d="M 28 0 L 28 12 L 40 12 Z" fill="#12131C" stroke="#C5CEDB" stroke-width="2"/>
+  </g>
+  <text x="115" y="275" class="caption" font-weight="600">45° Chamfer</text>
+  <text x="115" y="290" class="caption">Cutaway Fold</text>
+
+  <!-- Primitive 2: Diamond Telemetry Node -->
+  <rect x="185" y="240" width="125" height="75" rx="4" fill="#181A26" stroke="#2A2D3D" stroke-width="1"/>
+  <g transform="translate(205, 260)">
+    <polygon points="18,5 31,18 18,31 5,18" fill="#4DEBFF"/>
+    <circle cx="18" cy="18" r="3" fill="#12131C"/>
+  </g>
+  <text x="250" y="275" class="caption" font-weight="600">Telemetry</text>
+  <text x="250" y="290" class="caption">Diamond Core</text>
+
+  <!-- Primitive 3: Angular Vault Notch -->
+  <rect x="325" y="240" width="125" height="75" rx="4" fill="#181A26" stroke="#2A2D3D" stroke-width="1"/>
+  <g transform="translate(340, 265)">
+    <path d="M 0 10 L 10 10 L 15 16 L 25 16 L 30 10 L 40 10" fill="none" stroke="#C5CEDB" stroke-width="2"/>
+  </g>
+  <text x="390" y="275" class="caption" font-weight="600">Vault Notch</text>
+  <text x="390" y="290" class="caption">Angular Inset</text>
+
+  <!-- Primitive 4: Telemetry Pulse Rails -->
+  <rect x="465" y="240" width="125" height="75" rx="4" fill="#181A26" stroke="#2A2D3D" stroke-width="1"/>
+  <g transform="translate(480, 265)">
+    <line x1="0" y1="6" x2="32" y2="6" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="16" x2="22" y2="16" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="28,14 31,16 28,18 25,16" fill="#4DEBFF"/>
+  </g>
+  <text x="525" y="275" class="caption" font-weight="600">Pulse Rails</text>
+  <text x="525" y="290" class="caption">Telemetry Bus</text>
+
+  <!-- Primitive 5: Stepped 2.5D Lip -->
+  <rect x="605" y="240" width="145" height="75" rx="4" fill="#181A26" stroke="#2A2D3D" stroke-width="1"/>
+  <g transform="translate(615, 262)">
+    <path d="M 0 8 L 42 8 L 38 24 L 4 24 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2"/>
+  </g>
+  <text x="668" y="275" class="caption" font-weight="600">2.5D Lip</text>
+  <text x="668" y="290" class="caption">Perspective Flap</text>
+
+  <!-- Section 3: Base Carriers Multi-Theme Verification -->
+  <text x="45" y="348" class="section-label">03. BASE CARRIERS MULTI-ENVIRONMENT CONTRAST VERIFICATION</text>
+
+  <!-- Environment A: VS Code Dark+ (#1E1E1E) -->
+  <g transform="translate(45, 362)">
+    <rect width="225" height="115" rx="6" class="card-dark"/>
+    <text x="12" y="22" class="caption" fill="#8F9CAE" font-weight="600">VS Code Dark+ (#1E1E1E)</text>
+
+    <!-- File 32x32 -->
+    <g transform="translate(18, 36)">
+      <path d="M 5 3 L 20 3 L 27 10 L 27 27 L 25 29 L 7 29 L 5 27 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 20 3 L 20 10 L 27 10 Z" fill="#12131C" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="10" y1="16" x2="22" y2="16" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="21" x2="17" y2="21" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="21,19.5 22.5,21 21,22.5 19.5,21" fill="#4DEBFF"/>
+    </g>
+    <text x="21" y="80" class="caption">file.svg</text>
+
+    <!-- Folder Closed 32x32 -->
+    <g transform="translate(86, 36)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 3 13 L 5 11 L 13 11 L 15 13 L 17 13 L 19 11 L 27 11 L 29 13 L 29 24 L 27 26 L 5 26 L 3 24 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <polygon points="16,16.5 19.5,19.5 16,22.5 12.5,19.5" fill="#4DEBFF"/>
+      <circle cx="16" cy="19.5" r="1" fill="#12131C"/>
+    </g>
+    <text x="86" y="80" class="caption">folder.svg</text>
+
+    <!-- Folder Open 32x32 -->
+    <g transform="translate(156, 36)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 7 12 L 9 10 L 23 10 L 25 12 L 25 17 L 7 17 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="1.75" stroke-linejoin="round"/>
+      <line x1="10" y1="13.5" x2="22" y2="13.5" stroke="#63F5B2" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 2 16 L 30 16 L 27 28 L 5 28 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <polygon points="16,19 19.5,22 16,25 12.5,22" fill="#63F5B2"/>
+      <circle cx="16" cy="22" r="1" fill="#12131C"/>
+    </g>
+    <text x="145" y="80" class="caption">folder-open.svg</text>
+
+    <!-- 16x16 Scale Render -->
+    <g transform="translate(25, 90) scale(0.5)">
+      <path d="M 5 3 L 20 3 L 27 10 L 27 27 L 25 29 L 7 29 L 5 27 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2"/>
+    </g>
+    <g transform="translate(95, 90) scale(0.5)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#A78BFA" stroke-width="2"/>
+      <path d="M 3 13 L 5 11 L 13 11 L 15 13 L 17 13 L 19 11 L 27 11 L 29 13 L 29 24 L 27 26 L 5 26 L 3 24 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2"/>
+    </g>
+    <g transform="translate(165, 90) scale(0.5)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#A78BFA" stroke-width="2"/>
+      <path d="M 2 16 L 30 16 L 27 28 L 5 28 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2"/>
+    </g>
+    <text x="188" y="102" class="caption" font-size="9px">16px ↓</text>
+  </g>
+
+  <!-- Environment B: Deep OLED (#0A0A0F) -->
+  <g transform="translate(285, 362)">
+    <rect width="225" height="115" rx="6" class="card-deep"/>
+    <text x="12" y="22" class="caption" fill="#8F9CAE" font-weight="600">Deep OLED (#0A0A0F)</text>
+
+    <!-- File 32x32 -->
+    <g transform="translate(18, 36)">
+      <path d="M 5 3 L 20 3 L 27 10 L 27 27 L 25 29 L 7 29 L 5 27 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 20 3 L 20 10 L 27 10 Z" fill="#12131C" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="10" y1="16" x2="22" y2="16" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="21" x2="17" y2="21" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="21,19.5 22.5,21 21,22.5 19.5,21" fill="#4DEBFF"/>
+    </g>
+    <text x="21" y="80" class="caption">file.svg</text>
+
+    <!-- Folder Closed 32x32 -->
+    <g transform="translate(86, 36)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 3 13 L 5 11 L 13 11 L 15 13 L 17 13 L 19 11 L 27 11 L 29 13 L 29 24 L 27 26 L 5 26 L 3 24 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <polygon points="16,16.5 19.5,19.5 16,22.5 12.5,19.5" fill="#4DEBFF"/>
+      <circle cx="16" cy="19.5" r="1" fill="#12131C"/>
+    </g>
+    <text x="86" y="80" class="caption">folder.svg</text>
+
+    <!-- Folder Open 32x32 -->
+    <g transform="translate(156, 36)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 7 12 L 9 10 L 23 10 L 25 12 L 25 17 L 7 17 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="1.75" stroke-linejoin="round"/>
+      <line x1="10" y1="13.5" x2="22" y2="13.5" stroke="#63F5B2" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 2 16 L 30 16 L 27 28 L 5 28 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <polygon points="16,19 19.5,22 16,25 12.5,22" fill="#63F5B2"/>
+      <circle cx="16" cy="22" r="1" fill="#12131C"/>
+    </g>
+    <text x="145" y="80" class="caption">folder-open.svg</text>
+
+    <!-- 16x16 Scale Render -->
+    <g transform="translate(25, 90) scale(0.5)">
+      <path d="M 5 3 L 20 3 L 27 10 L 27 27 L 25 29 L 7 29 L 5 27 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2"/>
+    </g>
+    <g transform="translate(95, 90) scale(0.5)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#A78BFA" stroke-width="2"/>
+      <path d="M 3 13 L 5 11 L 13 11 L 15 13 L 17 13 L 19 11 L 27 11 L 29 13 L 29 24 L 27 26 L 5 26 L 3 24 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2"/>
+    </g>
+    <g transform="translate(165, 90) scale(0.5)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#A78BFA" stroke-width="2"/>
+      <path d="M 2 16 L 30 16 L 27 28 L 5 28 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2"/>
+    </g>
+    <text x="188" y="102" class="caption" font-size="9px">16px ↓</text>
+  </g>
+
+  <!-- Environment C: Light Theme (#F5F5F5) -->
+  <g transform="translate(525, 362)">
+    <rect width="225" height="115" rx="6" class="card-light"/>
+    <text x="12" y="22" class="caption" fill="#333742" font-weight="600">Light / Paper (#F5F5F5)</text>
+
+    <!-- File 32x32 -->
+    <g transform="translate(18, 36)">
+      <path d="M 5 3 L 20 3 L 27 10 L 27 27 L 25 29 L 7 29 L 5 27 Z" fill="#1E202E" stroke="#12131C" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M 20 3 L 20 10 L 27 10 Z" fill="#12131C" stroke="#12131C" stroke-width="1.5" stroke-linejoin="round"/>
+      <line x1="10" y1="16" x2="22" y2="16" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="21" x2="17" y2="21" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="21,19.5 22.5,21 21,22.5 19.5,21" fill="#4DEBFF"/>
+    </g>
+    <text x="21" y="80" class="caption" fill="#555B66">file.svg</text>
+
+    <!-- Folder Closed 32x32 -->
+    <g transform="translate(86, 36)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#12131C" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M 3 13 L 5 11 L 13 11 L 15 13 L 17 13 L 19 11 L 27 11 L 29 13 L 29 24 L 27 26 L 5 26 L 3 24 Z" fill="#1E202E" stroke="#12131C" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="16,16.5 19.5,19.5 16,22.5 12.5,19.5" fill="#4DEBFF"/>
+      <circle cx="16" cy="19.5" r="1" fill="#12131C"/>
+    </g>
+    <text x="86" y="80" class="caption" fill="#555B66">folder.svg</text>
+
+    <!-- Folder Open 32x32 -->
+    <g transform="translate(156, 36)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#12131C" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M 7 12 L 9 10 L 23 10 L 25 12 L 25 17 L 7 17 Z" fill="#1E202E" stroke="#12131C" stroke-width="1.5" stroke-linejoin="round"/>
+      <line x1="10" y1="13.5" x2="22" y2="13.5" stroke="#63F5B2" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 2 16 L 30 16 L 27 28 L 5 28 Z" fill="#1E202E" stroke="#12131C" stroke-width="1.5" stroke-linejoin="round"/>
+      <polygon points="16,19 19.5,22 16,25 12.5,22" fill="#63F5B2"/>
+      <circle cx="16" cy="22" r="1" fill="#12131C"/>
+    </g>
+    <text x="145" y="80" class="caption" fill="#555B66">folder-open.svg</text>
+
+    <!-- 16x16 Scale Render -->
+    <g transform="translate(25, 90) scale(0.5)">
+      <path d="M 5 3 L 20 3 L 27 10 L 27 27 L 25 29 L 7 29 L 5 27 Z" fill="#1E202E"/>
+    </g>
+    <g transform="translate(95, 90) scale(0.5)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C"/>
+      <path d="M 3 13 L 5 11 L 13 11 L 15 13 L 17 13 L 19 11 L 27 11 L 29 13 L 29 24 L 27 26 L 5 26 L 3 24 Z" fill="#1E202E"/>
+    </g>
+    <g transform="translate(165, 90) scale(0.5)">
+      <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C"/>
+      <path d="M 2 16 L 30 16 L 27 28 L 5 28 Z" fill="#1E202E"/>
+    </g>
+    <text x="188" y="102" class="caption" fill="#555B66" font-size="9px">16px ↓</text>
+  </g>
+</svg>
+

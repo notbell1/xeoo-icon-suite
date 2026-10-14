@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Compressed Archive Vault Chassis -->
+  <path d="M 6 4 L 26 4 L 28 6 L 28 26 L 26 28 L 6 28 L 4 26 L 4 6 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Interlocking Zipper Teeth Track -->
+  <rect x="14" y="6" width="4" height="2" fill="#4DEBFF"/>
+  <rect x="15" y="9" width="4" height="2" fill="#C5CEDB"/>
+  <rect x="14" y="12" width="4" height="2" fill="#4DEBFF"/>
+  <rect x="15" y="15" width="4" height="2" fill="#C5CEDB"/>
+  <rect x="14" y="18" width="4" height="2" fill="#4DEBFF"/>
+  <!-- Zipper Slider Clamp Head -->
+  <polygon points="12.5,21 19.5,21 18,26 14,26" fill="#FFC66D" stroke="#FFC66D" stroke-width="1" stroke-linejoin="round"/>
+  <!-- Pull Tab Ring -->
+  <rect x="14" y="25" width="4" height="4" rx="1" fill="#12131C" stroke="#4DEBFF" stroke-width="1.5"/>
+</svg>
+

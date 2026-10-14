@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Binary Serialization Hexagon Frame -->
+  <polygon points="16,3 27,9.5 27,22.5 16,29 5,22.5 5,9.5" fill="#1E202E" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Internal Serialization Tri-Spokes -->
+  <line x1="16" y1="16" x2="16" y2="4" stroke="#A78BFA" stroke-width="1.75"/>
+  <line x1="16" y1="16" x2="26" y2="22" stroke="#A78BFA" stroke-width="1.75"/>
+  <line x1="16" y1="16" x2="6" y2="22" stroke="#A78BFA" stroke-width="1.75"/>
+  <!-- Byte Packet Vertex Nodes -->
+  <circle cx="16" cy="9.5" r="1.5" fill="#63F5B2"/>
+  <circle cx="21.5" cy="19" r="1.5" fill="#63F5B2"/>
+  <circle cx="10.5" cy="19" r="1.5" fill="#63F5B2"/>
+  <!-- Central Serialization Core Diamond -->
+  <polygon points="16,14 18,16 16,18 14,16" fill="#4DEBFF"/>
+</svg>
+

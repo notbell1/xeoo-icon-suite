@@ -1,0 +1,49 @@
+# ==============================================================================
+# Xeoo Icon Suite - .gitignore
+# ==============================================================================
+
+# 1. Staging & Package Artifacts
+# ------------------------------------------------------------------------------
+.vsix_stage/
+*.pack_temp.ps1
+
+# 2. Dependencies
+# ------------------------------------------------------------------------------
+node_modules/
+
+# 3. Sensitive Credentials (keep .env and .env.example tracked for project config)
+# ------------------------------------------------------------------------------
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+id_ecdsa*
+credentials.json
+client_secret*.json
+auth.json
+
+# 4. Logs & Cache
+# ------------------------------------------------------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+
+# 5. OS & Editor Metadata
+# ------------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.swp
+*.swo
+*~
+.idea/

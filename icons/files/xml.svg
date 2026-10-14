@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Left Diamond-Cut Bracket -->
+  <path d="M 11 9 L 5 16 L 11 23" fill="none" stroke="#C5CEDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right Diamond-Cut Bracket -->
+  <path d="M 21 9 L 27 16 L 21 23" fill="none" stroke="#C5CEDB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Central Forward Slash Rail -->
+  <line x1="18.5" y1="8" x2="13.5" y2="24" stroke="#FF65C3" stroke-width="2" stroke-linecap="round"/>
+  <!-- Upper & Lower Telemetry Boundary Rails -->
+  <line x1="13" y1="5" x2="19" y2="5" stroke="#4DEBFF" stroke-width="1.75" stroke-linecap="round"/>
+  <line x1="13" y1="27" x2="19" y2="27" stroke="#4DEBFF" stroke-width="1.75" stroke-linecap="round"/>
+</svg>
+

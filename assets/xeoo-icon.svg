@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181824" />
+      <stop offset="100%" stop-color="#0b0c10" />
+    </linearGradient>
+
+    <linearGradient id="crimsonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4365" />
+      <stop offset="50%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#9f1239" />
+    </linearGradient>
+
+    <linearGradient id="violetGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="60%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base Frame -->
+  <rect width="256" height="256" rx="56" fill="url(#bgGrad)" stroke="#272838" stroke-width="3" />
+
+  <!-- Ambient Glow Behind Icon -->
+  <circle cx="128" cy="128" r="70" fill="#f43f5e" opacity="0.16" filter="blur(25px)" />
+
+  <!-- Stylized Geometric "X" Motif -->
+  <!-- Diagonal Bar 1: Top-Left to Bottom-Right -->
+  <path d="M 68 62 L 102 62 L 194 194 L 160 194 Z" fill="url(#crimsonGrad)" filter="url(#neonGlow)" />
+  
+  <!-- Diagonal Bar 2: Top-Right to Bottom-Left -->
+  <path d="M 188 62 L 154 62 L 62 194 L 96 194 Z" fill="url(#violetGrad)" opacity="0.95" />
+
+  <!-- Central Glowing Diamond Core -->
+  <polygon points="128,108 148,128 128,148 108,128" fill="#ffffff" opacity="0.95" filter="url(#neonGlow)" />
+
+  <!-- Cybernetic Corner Dots -->
+  <circle cx="64" cy="198" r="6" fill="#38bdf8" />
+  <circle cx="192" cy="58" r="6" fill="#f43f5e" />
+</svg>
+

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Security Clearance Shield Plate -->
+  <path d="M 7 5 L 25 5 L 25 18 L 16 27 L 7 18 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Cryptographic Keyhole -->
+  <circle cx="16" cy="12.5" r="2.5" fill="#FFC66D"/>
+  <polygon points="15,13.5 17,13.5 17.5,19 14.5,19" fill="#FFC66D"/>
+  <circle cx="16" cy="12.5" r="1" fill="#12131C"/>
+  <!-- Verification Telemetry Rail -->
+  <line x1="12" y1="21.5" x2="20" y2="21.5" stroke="#4DEBFF" stroke-width="1.75" stroke-linecap="round"/>
+</svg>
+

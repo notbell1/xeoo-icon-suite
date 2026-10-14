@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Cyber-Katana Razor Blade Silhouette -->
+  <path d="M 6 26 L 11 26 L 26 11 L 26 6 L 21 6 L 6 21 Z" fill="#1E202E" stroke="#FF65C3" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Primary High-Frequency Cutting Edge -->
+  <line x1="6" y1="26" x2="26" y2="6" stroke="#63F5B2" stroke-width="2" stroke-linecap="round"/>
+  <!-- Telemetry Razor Slots -->
+  <line x1="10" y1="17" x2="15" y2="12" stroke="#4DEBFF" stroke-width="1.75" stroke-linecap="round"/>
+  <line x1="14" y1="21" x2="19" y2="16" stroke="#4DEBFF" stroke-width="1.75" stroke-linecap="round"/>
+  <!-- Blade Hilt Telemetry Node -->
+  <polygon points="6,26 9,23 6,20 3,23" fill="#FFC66D"/>
+  <!-- Tip Optical Emitter -->
+  <circle cx="26" cy="6" r="1.5" fill="#63F5B2"/>
+</svg>

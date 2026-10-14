@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Power Cell Terminal Cap (Uncharged Blueprint) -->
+  <path d="M 12 4 L 20 4 L 20 7 L 12 7 Z" fill="none" stroke="#C5CEDB" stroke-width="1.75"/>
+  <!-- Template Blueprint Power Cell Body (Dashed Contour) -->
+  <path d="M 7 9 L 10 7 L 22 7 L 25 9 L 25 25 L 22 27 L 10 27 L 7 25 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-dasharray="3.5,2" stroke-linejoin="round"/>
+  <!-- Outline Template Voltage Glyph -->
+  <path d="M 17 12 L 11.5 18 L 16.5 18 L 14.5 25 L 21 17 L 16 17 Z" fill="none" stroke="#FFC66D" stroke-width="1.75" stroke-linejoin="round"/>
+  <!-- Example Tag Dot -->
+  <circle cx="16" cy="11" r="1.25" fill="#4DEBFF"/>
+</svg>
+

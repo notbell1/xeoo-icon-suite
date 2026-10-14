@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Precision Cybernetic Left Brace -->
+  <path d="M 12 7 L 9 7 L 9 13 L 6.5 15 L 9 17 L 9 23 L 12 23" fill="none" stroke="#FFC66D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Precision Cybernetic Right Brace -->
+  <path d="M 20 7 L 23 7 L 23 13 L 25.5 15 L 23 17 L 23 23 L 20 23" fill="none" stroke="#FFC66D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Central Telemetry Data Diode -->
+  <polygon points="16,13 18,15 16,17 14,15" fill="#4DEBFF"/>
+  <!-- Substrate Baseline Rail -->
+  <line x1="11" y1="27" x2="21" y2="27" stroke="#A78BFA" stroke-width="1.75" stroke-linecap="round"/>
+</svg>
+

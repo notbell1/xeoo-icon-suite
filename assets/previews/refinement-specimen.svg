@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 960" width="100%" height="100%">
+  <defs>
+    <style>
+      .hdr { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 20px; font-weight: 700; fill: #C5CEDB; }
+      .subhdr { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 13px; fill: #A78BFA; }
+      .cat { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 13px; font-weight: 600; fill: #4DEBFF; letter-spacing: 1px; }
+      .lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 11px; fill: #9AA7B8; text-anchor: middle; }
+      .bg { fill: #0D0E15; }
+      .panel-dark { fill: #1E1E1E; stroke: #2A2D3D; stroke-width: 1.5; rx: 8; }
+      .panel-light { fill: #F5F5F5; stroke: #D8DCE3; stroke-width: 1.5; rx: 8; }
+      .div { stroke: #232538; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="960" class="bg"/>
+  <rect x="20" y="20" width="1060" height="920" rx="10" fill="#12131C" stroke="#232538" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="45" y="55" class="hdr">XEOO ICON THEME — ICON IDENTITY &amp; VISUAL REFINEMENT</text>
+  <text x="45" y="75" class="subhdr">Visual Audit &amp; Resolution Specimen: Dedicated Dotfiles, Styling, Media, PHP Monogram &amp; Blade Katana</text>
+  <line x1="45" y1="90" x2="1055" y2="90" class="div"/>
+
+  <!-- Left Column: Dark Theme (#1E1E1E) -->
+  <rect x="45" y="105" width="485" height="815" class="panel-dark"/>
+  <text x="65" y="130" class="cat">DARK CANVASES (VS CODE DARK+ #1E1E1E)</text>
+
+  <!-- Row 1: Languages & Templates -->
+  <text x="65" y="155" class="lbl" style="text-anchor: start; fill: #4DEBFF; font-weight: 600;">1. Languages &amp; Templates (PHP Monogram, Blade Katana, Markdown M, HTML)</text>
+  <g transform="translate(65, 170)"><use href="#rf-php"/><text x="16" y="44" class="lbl">.php</text></g>
+  <g transform="translate(120, 170)"><use href="#rf-blade"/><text x="16" y="44" class="lbl">blade.php</text></g>
+  <g transform="translate(175, 170)"><use href="#rf-md"/><text x="16" y="44" class="lbl">.md</text></g>
+  <g transform="translate(230, 170)"><use href="#rf-html"/><text x="16" y="44" class="lbl">.html</text></g>
+  <g transform="translate(285, 170)"><use href="#rf-css"/><text x="16" y="44" class="lbl">.css</text></g>
+  <g transform="translate(340, 170)"><use href="#rf-scss"/><text x="16" y="44" class="lbl">.scss</text></g>
+  <g transform="translate(395, 170)"><use href="#rf-less"/><text x="16" y="44" class="lbl">.less</text></g>
+
+  <!-- Row 2: Dedicated Git & Environment Dotfiles -->
+  <text x="65" y="245" class="lbl" style="text-anchor: start; fill: #4DEBFF; font-weight: 600;">2. Dedicated Git &amp; Environment Dotfiles (Ignore vs Attributes, Active vs Example)</text>
+  <g transform="translate(65, 260)"><use href="#rf-git"/><text x="16" y="44" class="lbl">.git</text></g>
+  <g transform="translate(125, 260)"><use href="#rf-gitignore"/><text x="16" y="44" class="lbl">.gitignore</text></g>
+  <g transform="translate(195, 260)"><use href="#rf-gitattributes"/><text x="16" y="44" class="lbl">.gitattributes</text></g>
+  <g transform="translate(265, 260)"><use href="#rf-env"/><text x="16" y="44" class="lbl">.env</text></g>
+  <g transform="translate(335, 260)"><use href="#rf-envexample"/><text x="16" y="44" class="lbl">.env.example</text></g>
+
+  <!-- Row 3: Media, Archives & Configs -->
+  <text x="65" y="335" class="lbl" style="text-anchor: start; fill: #4DEBFF; font-weight: 600;">3. Archives, Media &amp; Configurations (Zip, GIF, SVG, TOML, YAML)</text>
+  <g transform="translate(65, 350)"><use href="#rf-zip"/><text x="16" y="44" class="lbl">.zip</text></g>
+  <g transform="translate(125, 350)"><use href="#rf-gif"/><text x="16" y="44" class="lbl">.gif</text></g>
+  <g transform="translate(185, 350)"><use href="#rf-svg"/><text x="16" y="44" class="lbl">.svg</text></g>
+  <g transform="translate(245, 350)"><use href="#rf-toml"/><text x="16" y="44" class="lbl">.toml</text></g>
+  <g transform="translate(305, 350)"><use href="#rf-yaml"/><text x="16" y="44" class="lbl">.yaml</text></g>
+  <g transform="translate(365, 350)"><use href="#rf-file"/><text x="16" y="44" class="lbl">fallback</text></g>
+
+  <!-- Row 4: 24x24 px Explorer Scale Inspection -->
+  <text x="65" y="430" class="lbl" style="text-anchor: start; fill: #A78BFA; font-weight: 600;">4. 24 × 24 px Scale Visual Comparison</text>
+  <g transform="translate(65, 445)">
+    <g transform="scale(0.75)"><use href="#rf-php"/></g><text x="12" y="34" class="lbl">PHP</text>
+    <g transform="translate(50, 0) scale(0.75)"><use href="#rf-blade"/></g><text x="62" y="34" class="lbl">Blade</text>
+    <g transform="translate(100, 0) scale(0.75)"><use href="#rf-gitignore"/></g><text x="112" y="34" class="lbl">Ignore</text>
+    <g transform="translate(150, 0) scale(0.75)"><use href="#rf-gitattributes"/></g><text x="162" y="34" class="lbl">Attribs</text>
+    <g transform="translate(200, 0) scale(0.75)"><use href="#rf-env"/></g><text x="212" y="34" class="lbl">Env</text>
+    <g transform="translate(250, 0) scale(0.75)"><use href="#rf-envexample"/></g><text x="262" y="34" class="lbl">Sample</text>
+    <g transform="translate(300, 0) scale(0.75)"><use href="#rf-less"/></g><text x="312" y="34" class="lbl">Less</text>
+    <g transform="translate(350, 0) scale(0.75)"><use href="#rf-zip"/></g><text x="362" y="34" class="lbl">Zip</text>
+    <g transform="translate(400, 0) scale(0.75)"><use href="#rf-svg"/></g><text x="412" y="34" class="lbl">SVG</text>
+  </g>
+
+  <!-- Row 5: 16x16 px Live Fixture Tree Simulation (Dark+) -->
+  <text x="65" y="525" class="lbl" style="text-anchor: start; fill: #63F5B2; font-weight: 600;">5. 16 × 16 px Micro Scale Fixture Tree Simulation (Dark+)</text>
+  <g transform="translate(65, 545)">
+    <!-- Line 1 -->
+    <g transform="scale(0.5)"><use href="#rf-php"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">app.php</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-blade"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">welcome.blade.php</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-blade"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">layout.blade.php</text>
+  </g>
+  <g transform="translate(65, 575)">
+    <!-- Line 2 -->
+    <g transform="scale(0.5)"><use href="#rf-gitignore"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">.gitignore</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-gitattributes"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">.gitattributes</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-git"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">.gitmodules</text>
+  </g>
+  <g transform="translate(65, 605)">
+    <!-- Line 3 -->
+    <g transform="scale(0.5)"><use href="#rf-env"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">.env</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-envexample"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">.env.example</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-md"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">README.md</text>
+  </g>
+  <g transform="translate(65, 635)">
+    <!-- Line 4 -->
+    <g transform="scale(0.5)"><use href="#rf-less"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">style.less</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-zip"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">archive.zip</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-gif"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">animation.gif</text>
+  </g>
+  <g transform="translate(65, 665)">
+    <!-- Line 5 -->
+    <g transform="scale(0.5)"><use href="#rf-svg"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">logo.svg</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-toml"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">config.toml</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-yaml"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #C5CEDB;">settings.yml</text>
+  </g>
+
+  <!-- Right Column: Light Theme (#F5F5F5) -->
+  <rect x="560" y="105" width="485" height="815" class="panel-light"/>
+  <text x="580" y="130" class="cat" fill="#0E7490">LIGHT CANVASES (VS CODE LIGHT+ / PAPER #F5F5F5)</text>
+
+  <!-- Row 1: Languages & Templates -->
+  <text x="580" y="155" class="lbl" style="text-anchor: start; fill: #0284C7; font-weight: 600;">1. Languages &amp; Templates (Light Mode High Contrast)</text>
+  <g transform="translate(580, 170)"><use href="#rf-php"/><text x="16" y="44" class="lbl" fill="#4B5563">.php</text></g>
+  <g transform="translate(635, 170)"><use href="#rf-blade"/><text x="16" y="44" class="lbl" fill="#4B5563">blade.php</text></g>
+  <g transform="translate(690, 170)"><use href="#rf-md"/><text x="16" y="44" class="lbl" fill="#4B5563">.md</text></g>
+  <g transform="translate(745, 170)"><use href="#rf-html"/><text x="16" y="44" class="lbl" fill="#4B5563">.html</text></g>
+  <g transform="translate(800, 170)"><use href="#rf-css"/><text x="16" y="44" class="lbl" fill="#4B5563">.css</text></g>
+  <g transform="translate(855, 170)"><use href="#rf-scss"/><text x="16" y="44" class="lbl" fill="#4B5563">.scss</text></g>
+  <g transform="translate(910, 170)"><use href="#rf-less"/><text x="16" y="44" class="lbl" fill="#4B5563">.less</text></g>
+
+  <!-- Row 2: Dedicated Git & Environment Dotfiles -->
+  <text x="580" y="245" class="lbl" style="text-anchor: start; fill: #0284C7; font-weight: 600;">2. Dedicated Git &amp; Environment Dotfiles (Light Mode Silhouette)</text>
+  <g transform="translate(580, 260)"><use href="#rf-git"/><text x="16" y="44" class="lbl" fill="#4B5563">.git</text></g>
+  <g transform="translate(640, 260)"><use href="#rf-gitignore"/><text x="16" y="44" class="lbl" fill="#4B5563">.gitignore</text></g>
+  <g transform="translate(710, 260)"><use href="#rf-gitattributes"/><text x="16" y="44" class="lbl" fill="#4B5563">.gitattributes</text></g>
+  <g transform="translate(780, 260)"><use href="#rf-env"/><text x="16" y="44" class="lbl" fill="#4B5563">.env</text></g>
+  <g transform="translate(850, 260)"><use href="#rf-envexample"/><text x="16" y="44" class="lbl" fill="#4B5563">.env.example</text></g>
+
+  <!-- Row 3: Media, Archives & Configs -->
+  <text x="580" y="335" class="lbl" style="text-anchor: start; fill: #0284C7; font-weight: 600;">3. Archives, Media &amp; Configurations (Light Mode Silhouette)</text>
+  <g transform="translate(580, 350)"><use href="#rf-zip"/><text x="16" y="44" class="lbl" fill="#4B5563">.zip</text></g>
+  <g transform="translate(640, 350)"><use href="#rf-gif"/><text x="16" y="44" class="lbl" fill="#4B5563">.gif</text></g>
+  <g transform="translate(700, 350)"><use href="#rf-svg"/><text x="16" y="44" class="lbl" fill="#4B5563">.svg</text></g>
+  <g transform="translate(760, 350)"><use href="#rf-toml"/><text x="16" y="44" class="lbl" fill="#4B5563">.toml</text></g>
+  <g transform="translate(820, 350)"><use href="#rf-yaml"/><text x="16" y="44" class="lbl" fill="#4B5563">.yaml</text></g>
+  <g transform="translate(880, 350)"><use href="#rf-file"/><text x="16" y="44" class="lbl" fill="#4B5563">fallback</text></g>
+
+  <!-- Row 4: 24x24 px Explorer Scale Inspection -->
+  <text x="580" y="430" class="lbl" style="text-anchor: start; fill: #0284C7; font-weight: 600;">4. 24 × 24 px Scale Visual Comparison (Light+)</text>
+  <g transform="translate(580, 445)">
+    <g transform="scale(0.75)"><use href="#rf-php"/></g><text x="12" y="34" class="lbl" fill="#4B5563">PHP</text>
+    <g transform="translate(50, 0) scale(0.75)"><use href="#rf-blade"/></g><text x="62" y="34" class="lbl" fill="#4B5563">Blade</text>
+    <g transform="translate(100, 0) scale(0.75)"><use href="#rf-gitignore"/></g><text x="112" y="34" class="lbl" fill="#4B5563">Ignore</text>
+    <g transform="translate(150, 0) scale(0.75)"><use href="#rf-gitattributes"/></g><text x="162" y="34" class="lbl" fill="#4B5563">Attribs</text>
+    <g transform="translate(200, 0) scale(0.75)"><use href="#rf-env"/></g><text x="212" y="34" class="lbl" fill="#4B5563">Env</text>
+    <g transform="translate(250, 0) scale(0.75)"><use href="#rf-envexample"/></g><text x="262" y="34" class="lbl" fill="#4B5563">Sample</text>
+    <g transform="translate(300, 0) scale(0.75)"><use href="#rf-less"/></g><text x="312" y="34" class="lbl" fill="#4B5563">Less</text>
+    <g transform="translate(350, 0) scale(0.75)"><use href="#rf-zip"/></g><text x="362" y="34" class="lbl" fill="#4B5563">Zip</text>
+    <g transform="translate(400, 0) scale(0.75)"><use href="#rf-svg"/></g><text x="412" y="34" class="lbl" fill="#4B5563">SVG</text>
+  </g>
+
+  <!-- Row 5: 16x16 px Live Fixture Tree Simulation (Light+) -->
+  <text x="580" y="525" class="lbl" style="text-anchor: start; fill: #059669; font-weight: 600;">5. 16 × 16 px Micro Scale Fixture Tree Simulation (Light+)</text>
+  <g transform="translate(580, 545)">
+    <!-- Line 1 -->
+    <g transform="scale(0.5)"><use href="#rf-php"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">app.php</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-blade"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">welcome.blade.php</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-blade"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">layout.blade.php</text>
+  </g>
+  <g transform="translate(580, 575)">
+    <!-- Line 2 -->
+    <g transform="scale(0.5)"><use href="#rf-gitignore"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">.gitignore</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-gitattributes"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">.gitattributes</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-git"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">.gitmodules</text>
+  </g>
+  <g transform="translate(580, 605)">
+    <!-- Line 3 -->
+    <g transform="scale(0.5)"><use href="#rf-env"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">.env</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-envexample"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">.env.example</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-md"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">README.md</text>
+  </g>
+  <g transform="translate(580, 635)">
+    <!-- Line 4 -->
+    <g transform="scale(0.5)"><use href="#rf-less"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">style.less</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-zip"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">archive.zip</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-gif"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">animation.gif</text>
+  </g>
+  <g transform="translate(580, 665)">
+    <!-- Line 5 -->
+    <g transform="scale(0.5)"><use href="#rf-svg"/></g><text x="22" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">logo.svg</text>
+    <g transform="translate(105, 0) scale(0.5)"><use href="#rf-toml"/></g><text x="127" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">config.toml</text>
+    <g transform="translate(255, 0) scale(0.5)"><use href="#rf-yaml"/></g><text x="277" y="12" class="lbl" style="text-anchor: start; fill: #1F2937;">settings.yml</text>
+  </g>
+
+  <!-- Reusable Vector Definitions for Specimen -->
+  <defs>
+    <g id="rf-php">
+      <path d="M 6 8 L 26 8 L 29 11 L 29 21 L 26 24 L 6 24 L 3 21 L 3 11 Z" fill="#1E202E" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="6" cy="11" r="1" fill="#4DEBFF"/>
+      <circle cx="26" cy="21" r="1" fill="#4DEBFF"/>
+      <path d="M 7.5 21.5 L 7.5 10.5 L 11 10.5 C 12.5 10.5, 13.5 11.5, 13.5 13 C 13.5 14.5, 12.5 15.5, 11 15.5 L 7.5 15.5" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 15 10.5 L 15 21.5 M 15 15 C 16 13.5, 18.5 13.5, 19 15.5 L 19 21.5" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 21.5 21.5 L 21.5 10.5 L 25 10.5 C 26.5 10.5, 27.5 11.5, 27.5 13 C 27.5 14.5, 26.5 15.5, 25 15.5 L 21.5 15.5" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g id="rf-blade">
+      <path d="M 6 26 L 11 26 L 26 11 L 26 6 L 21 6 L 6 21 Z" fill="#1E202E" stroke="#FF65C3" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="6" y1="26" x2="26" y2="6" stroke="#63F5B2" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="17" x2="15" y2="12" stroke="#4DEBFF" stroke-width="1.75" stroke-linecap="round"/>
+      <line x1="14" y1="21" x2="19" y2="16" stroke="#4DEBFF" stroke-width="1.75" stroke-linecap="round"/>
+      <polygon points="6,26 9,23 6,20 3,23" fill="#FFC66D"/>
+      <circle cx="26" cy="6" r="1.5" fill="#63F5B2"/>
+    </g>
+
+    <g id="rf-md">
+      <path d="M 4 3 L 21 3 L 28 10 L 28 29 L 4 29 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 21 3 L 21 10 L 28 10 Z" fill="#12131C" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 8 22 L 8 13 L 13.5 17.5 L 18.5 13 L 18.5 22" fill="none" stroke="#4DEBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="23.5" y1="13" x2="23.5" y2="20" stroke="#63F5B2" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 21 18 L 23.5 21 L 26 18" fill="none" stroke="#63F5B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="16" cy="25.5" r="1.25" fill="#FFC66D"/>
+    </g>
+
+    <g id="rf-html">
+      <path d="M 5 4 L 27 4 L 25 24 L 16 28 L 7 24 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 12 11 L 8 16 L 12 21" fill="none" stroke="#FFC66D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 20 11 L 24 16 L 20 21" fill="none" stroke="#FFC66D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="18" y1="10" x2="14" y2="22" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="16" cy="16" r="1.25" fill="#63F5B2"/>
+    </g>
+
+    <g id="rf-css">
+      <path d="M 5 4 L 27 4 L 25 24 L 16 28 L 7 24 Z" fill="#1E202E" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="10" y1="9" x2="10" y2="19" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="9" x2="22" y2="9" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="14" x2="20" y2="14" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="10" y1="19" x2="16" y2="19" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="16,22 17.5,23.5 16,25 14.5,23.5" fill="#4DEBFF"/>
+    </g>
+
+    <g id="rf-scss">
+      <path d="M 23 8 C 17 8, 13 12, 16 16 C 19 20, 15 24, 9 24" fill="none" stroke="#FF65C3" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 20 12 C 18 12, 16.5 13.5, 17 15" fill="none" stroke="#A78BFA" stroke-width="1.75" stroke-linecap="round"/>
+      <circle cx="23" cy="8" r="2" fill="#FF65C3"/>
+      <circle cx="9" cy="24" r="2" fill="#FF65C3"/>
+      <polygon points="16,14.5 17.5,16 16,17.5 14.5,16" fill="#4DEBFF"/>
+    </g>
+
+    <g id="rf-less">
+      <polygon points="16,4 27,10 27,22 16,28 5,22 5,10" fill="#1E202E" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 22 10 L 11 16 L 22 22" fill="none" stroke="#4DEBFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="11" y1="24.5" x2="21" y2="24.5" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="11" cy="16" r="1.5" fill="#63F5B2"/>
+    </g>
+
+    <g id="rf-git">
+      <path d="M 16 3 L 29 16 L 16 29 L 3 16 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="12" y1="11" x2="12" y2="21" stroke="#FFC66D" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 12 17 C 14 17, 18 15.5, 19 13.5" fill="none" stroke="#FFC66D" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="12" cy="11" r="2" fill="#FFC66D"/>
+      <circle cx="12" cy="21" r="2" fill="#FFC66D"/>
+      <circle cx="19" cy="13.5" r="2" fill="#4DEBFF"/>
+      <circle cx="16" cy="16" r="1" fill="#63F5B2"/>
+    </g>
+
+    <g id="rf-gitignore">
+      <path d="M 16 3 L 29 16 L 16 29 L 3 16 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="12" y1="11" x2="12" y2="21" stroke="#FFC66D" stroke-width="1.75" stroke-linecap="round"/>
+      <path d="M 12 17 C 14 17, 18 15.5, 19 13.5" fill="none" stroke="#FFC66D" stroke-width="1.75" stroke-linecap="round"/>
+      <circle cx="12" cy="11" r="1.75" fill="#FFC66D"/>
+      <circle cx="12" cy="21" r="1.75" fill="#FFC66D"/>
+      <circle cx="19" cy="13.5" r="1.75" fill="#4DEBFF"/>
+      <line x1="7" y1="25" x2="25" y2="7" stroke="#FF65C3" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <g id="rf-gitattributes">
+      <path d="M 16 3 L 29 16 L 16 29 L 3 16 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="10" y1="11" x2="10" y2="21" stroke="#FFC66D" stroke-width="1.75" stroke-linecap="round"/>
+      <circle cx="10" cy="11" r="1.5" fill="#FFC66D"/>
+      <circle cx="10" cy="21" r="1.5" fill="#FFC66D"/>
+      <line x1="15" y1="12" x2="22" y2="12" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="17" cy="12" r="1.25" fill="#63F5B2"/>
+      <line x1="15" y1="16" x2="23" y2="16" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="21" cy="16" r="1.25" fill="#63F5B2"/>
+      <line x1="15" y1="20" x2="21" y2="20" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="18" cy="20" r="1.25" fill="#63F5B2"/>
+    </g>
+
+    <g id="rf-env">
+      <path d="M 12 4 L 20 4 L 20 7 L 12 7 Z" fill="#FFC66D"/>
+      <path d="M 7 9 L 10 7 L 22 7 L 25 9 L 25 25 L 22 27 L 10 27 L 7 25 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="10" y1="11" x2="22" y2="11" stroke="#63F5B2" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="17,12 11.5,18 16.5,18 14.5,25 21,17 16,17" fill="#63F5B2" stroke="#63F5B2" stroke-width="1" stroke-linejoin="round"/>
+    </g>
+
+    <g id="rf-envexample">
+      <path d="M 12 4 L 20 4 L 20 7 L 12 7 Z" fill="none" stroke="#C5CEDB" stroke-width="1.75"/>
+      <path d="M 7 9 L 10 7 L 22 7 L 25 9 L 25 25 L 22 27 L 10 27 L 7 25 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-dasharray="3.5,2" stroke-linejoin="round"/>
+      <path d="M 17 12 L 11.5 18 L 16.5 18 L 14.5 25 L 21 17 L 16 17 Z" fill="none" stroke="#FFC66D" stroke-width="1.75" stroke-linejoin="round"/>
+      <circle cx="16" cy="11" r="1.25" fill="#4DEBFF"/>
+    </g>
+
+    <g id="rf-zip">
+      <path d="M 6 4 L 26 4 L 28 6 L 28 26 L 26 28 L 6 28 L 4 26 L 4 6 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="14" y="6" width="4" height="2" fill="#4DEBFF"/>
+      <rect x="15" y="9" width="4" height="2" fill="#C5CEDB"/>
+      <rect x="14" y="12" width="4" height="2" fill="#4DEBFF"/>
+      <rect x="15" y="15" width="4" height="2" fill="#C5CEDB"/>
+      <rect x="14" y="18" width="4" height="2" fill="#4DEBFF"/>
+      <polygon points="12.5,21 19.5,21 18,26 14,26" fill="#FFC66D" stroke="#FFC66D" stroke-width="1" stroke-linejoin="round"/>
+      <rect x="14" y="25" width="4" height="4" rx="1" fill="#12131C" stroke="#4DEBFF" stroke-width="1.5"/>
+    </g>
+
+    <g id="rf-gif">
+      <rect x="4" y="6" width="24" height="20" rx="3" fill="#1E202E" stroke="#63F5B2" stroke-width="2"/>
+      <line x1="8" y1="8.5" x2="10" y2="8.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="15" y1="8.5" x2="17" y2="8.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="22" y1="8.5" x2="24" y2="8.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <polygon points="12,12 21,16 12,20" fill="#63F5B2" stroke="#63F5B2" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M 22 13 C 24 14.5, 24 17.5, 22 19" fill="none" stroke="#FFC66D" stroke-width="2" stroke-linecap="round"/>
+      <line x1="8" y1="23.5" x2="10" y2="23.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="15" y1="23.5" x2="17" y2="23.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="22" y1="23.5" x2="24" y2="23.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+
+    <g id="rf-svg">
+      <path d="M 5 4 L 27 4 L 27 28 L 5 28 Z" fill="#1E202E" stroke="#FF65C3" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="8" y1="23" x2="16" y2="23" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="16" y1="9" x2="24" y2="9" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M 8 23 C 16 23, 16 9, 24 9" fill="none" stroke="#FF65C3" stroke-width="2.5" stroke-linecap="round"/>
+      <polygon points="8,21 10,23 8,25 6,23" fill="#63F5B2"/>
+      <polygon points="24,7 26,9 24,11 22,9" fill="#63F5B2"/>
+      <circle cx="16" cy="23" r="1.25" fill="#4DEBFF"/>
+      <circle cx="16" cy="9" r="1.25" fill="#4DEBFF"/>
+      <circle cx="16" cy="16" r="1.5" fill="#FFC66D"/>
+    </g>
+
+    <g id="rf-toml">
+      <path d="M 6 5 L 26 5 L 28 7 L 28 25 L 26 27 L 6 27 L 4 25 L 4 7 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="8" y1="11" x2="24" y2="11" stroke="#FFC66D" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="16" y1="11" x2="16" y2="23" stroke="#FFC66D" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="8" cy="8" r="1.25" fill="#4DEBFF"/>
+      <circle cx="24" cy="8" r="1.25" fill="#4DEBFF"/>
+      <circle cx="8" cy="24" r="1.25" fill="#4DEBFF"/>
+      <circle cx="24" cy="24" r="1.25" fill="#4DEBFF"/>
+      <polygon points="16,9 18,11 16,13 14,11" fill="#63F5B2"/>
+    </g>
+
+    <g id="rf-yaml">
+      <path d="M 4 3 L 21 3 L 28 10 L 28 29 L 4 29 Z" fill="#1E202E" stroke="#63F5B2" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 21 3 L 21 10 L 28 10 Z" fill="#12131C" stroke="#63F5B2" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="9" y1="12" x2="16" y2="18" stroke="#63F5B2" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="23" y1="12" x2="16" y2="18" stroke="#63F5B2" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="16" y1="18" x2="16" y2="25" stroke="#63F5B2" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="9" cy="12" r="1.75" fill="#4DEBFF"/>
+      <circle cx="23" cy="12" r="1.75" fill="#4DEBFF"/>
+      <circle cx="16" cy="25" r="1.75" fill="#FFC66D"/>
+      <polygon points="16,16 18,18 16,20 14,18" fill="#FF65C3"/>
+    </g>
+
+    <g id="rf-file">
+      <path d="M 4 3 L 21 3 L 28 10 L 28 29 L 4 29 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M 21 3 L 21 10 L 28 10 Z" fill="#12131C" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+      <line x1="9" y1="16" x2="23" y2="16" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+      <line x1="9" y1="21" x2="17" y2="21" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="22,19.5 23.5,21 22,22.5 20.5,21" fill="#4DEBFF"/>
+    </g>
+  </defs>
+</svg>
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Primary Plasma Fluid Track -->
+  <path d="M 23 8 C 17 8, 13 12, 16 16 C 19 20, 15 24, 9 24" fill="none" stroke="#FF65C3" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Secondary Accent Rail -->
+  <path d="M 20 12 C 18 12, 16.5 13.5, 17 15" fill="none" stroke="#A78BFA" stroke-width="1.75" stroke-linecap="round"/>
+  <!-- Telemetry Loop Terminals -->
+  <circle cx="23" cy="8" r="2" fill="#FF65C3"/>
+  <circle cx="9" cy="24" r="2" fill="#FF65C3"/>
+  <!-- Intersection Core Diamond -->
+  <polygon points="16,14.5 17.5,16 16,17.5 14.5,16" fill="#4DEBFF"/>
+</svg>
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Aerodynamic Delta Dart Hull -->
+  <path d="M 16 3 L 28 27 L 16 22 L 4 27 Z" fill="#1E202E" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Central Propulsion Keel -->
+  <line x1="16" y1="3" x2="16" y2="22" stroke="#63F5B2" stroke-width="2"/>
+  <!-- Wing Telemetry Facet Rails -->
+  <line x1="16" y1="12" x2="24" y2="21" stroke="#A78BFA" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="16" y1="12" x2="8" y2="21" stroke="#A78BFA" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Apex Flight Node -->
+  <circle cx="16" cy="7" r="1.25" fill="#4DEBFF"/>
+</svg>
+

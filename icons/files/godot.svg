@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Left Telemetry Sensor Antenna -->
+  <line x1="9" y1="10" x2="5.5" y2="4.5" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="5" cy="4" r="1.5" fill="#63F5B2"/>
+  <!-- Right Telemetry Sensor Antenna -->
+  <line x1="23" y1="10" x2="26.5" y2="4.5" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="27" cy="4" r="1.5" fill="#63F5B2"/>
+  <!-- Robotic Cog Chassis Head -->
+  <path d="M 8 10 L 24 10 L 26 13 L 26 23 L 23 26 L 9 26 L 6 23 L 6 13 Z" fill="#1E202E" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Optical Sensor Lenses (Eyes) -->
+  <circle cx="11.5" cy="17" r="2" fill="#4DEBFF"/>
+  <circle cx="20.5" cy="17" r="2" fill="#4DEBFF"/>
+  <!-- Mouth Actuator Notch -->
+  <path d="M 12 22 L 14 24 L 18 24 L 20 22" fill="none" stroke="#A78BFA" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

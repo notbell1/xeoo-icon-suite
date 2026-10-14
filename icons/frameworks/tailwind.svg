@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Aerodynamic Telemetry Wind Wave 1 (Upper - Neon Cyan) -->
+  <path d="M 6 13 C 8 8, 12 7, 15 10 C 18 13, 21 13, 26 10 C 24 15, 20 16, 17 13 C 14 10, 11 10, 6 13 Z" fill="#4DEBFF"/>
+  <!-- Aerodynamic Telemetry Wind Wave 2 (Lower - Cyber Mint) -->
+  <path d="M 10 20 C 12 16, 15 15, 18 17 C 21 19, 23 19, 28 17 C 26 21, 22 22, 19 20 C 16 18, 14 18, 10 20 Z" fill="#63F5B2"/>
+  <!-- Streamline Core Sensor Nodes -->
+  <circle cx="16" cy="11.5" r="1" fill="#12131C"/>
+  <circle cx="20" cy="18.5" r="1" fill="#12131C"/>
+</svg>
+

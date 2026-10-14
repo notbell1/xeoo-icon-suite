@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- 3D Refractive Crystal Outer Contour -->
+  <polygon points="16,3 27,15 16,29 5,15" fill="#1E202E" stroke="#63F5B2" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Internal Equator Wireframe Rail -->
+  <polygon points="16,11 27,15 16,19 5,15" fill="none" stroke="#FF65C3" stroke-width="1.75" stroke-linejoin="round"/>
+  <!-- Axial Polar Spine -->
+  <line x1="16" y1="3" x2="16" y2="29" stroke="#63F5B2" stroke-width="1.75"/>
+  <!-- Refractive Normal Core Diamond -->
+  <polygon points="16,13 18.5,15 16,17 13.5,15" fill="#4DEBFF"/>
+</svg>
+

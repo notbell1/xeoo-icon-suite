@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- HTML Cybernetic Shield Chassis -->
+  <path d="M 5 4 L 27 4 L 25 24 L 16 28 L 7 24 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Left Hypertext Angle Bracket -->
+  <path d="M 12 11 L 8 16 L 12 21" fill="none" stroke="#FFC66D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right Hypertext Angle Bracket -->
+  <path d="M 20 11 L 24 16 L 20 21" fill="none" stroke="#FFC66D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Forward Slash Rail -->
+  <line x1="18" y1="10" x2="14" y2="22" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Central Telemetry Status Node -->
+  <circle cx="16" cy="16" r="1.25" fill="#63F5B2"/>
+</svg>

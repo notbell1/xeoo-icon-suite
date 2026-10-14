@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Upper Neon Cyan Serpent Hook -->
+  <path d="M 15 4 L 9 4 C 6.5 4, 5 5.5, 5 8 L 5 13 L 14 13 L 14 15 L 7 15 C 4.5 15, 3 16.5, 3 19 L 3 20 L 6 20 L 6 18 C 6 17, 7 16, 8 16 L 16 16 C 18.5 16, 20 14.5, 20 12 L 20 7 C 20 5.5, 18.5 4, 16 4 Z" fill="#1E202E" stroke="#4DEBFF" stroke-width="1.75" stroke-linejoin="round"/>
+  <!-- Lower Solar Amber Serpent Hook -->
+  <path d="M 17 28 L 23 28 C 25.5 28, 27 26.5, 27 24 L 27 19 L 18 19 L 18 17 L 25 17 C 27.5 17, 29 15.5, 29 13 L 29 12 L 26 12 L 26 14 C 26 15, 25 16, 24 16 L 16 16 C 13.5 16, 12 17.5, 12 20 L 12 25 C 12 26.5, 13.5 28, 16 28 Z" fill="#12131C" stroke="#FFC66D" stroke-width="1.75" stroke-linejoin="round"/>
+  <!-- Telemetry Sensor Eyes -->
+  <circle cx="10" cy="8" r="1.5" fill="#4DEBFF"/>
+  <circle cx="22" cy="24" r="1.5" fill="#FFC66D"/>
+</svg>
+

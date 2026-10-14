@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Outer Cybernetic Shield -->
+  <path d="M 5 4 L 27 4 L 25 24 L 16 28 L 7 24 Z" fill="#1E202E" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Cascade Rail Backbone -->
+  <line x1="10" y1="9" x2="10" y2="19" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tier 1 Cascade Bar -->
+  <line x1="10" y1="9" x2="22" y2="9" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tier 2 Cascade Bar -->
+  <line x1="10" y1="14" x2="20" y2="14" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tier 3 Cascade Bar -->
+  <line x1="10" y1="19" x2="16" y2="19" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Shield Bottom Core Node -->
+  <polygon points="16,22 17.5,23.5 16,25 14.5,23.5" fill="#4DEBFF"/>
+</svg>
+

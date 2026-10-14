@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Supersonic 'S' Trajectory Loop -->
+  <path d="M 21 5 L 12 5 C 7 5, 5 8.5, 6 13 C 7 17.5, 14 16.5, 15 20 C 16 23.5, 14 27, 9 27 L 18 27 C 23 27, 25 23.5, 24 19 C 23 14.5, 16 15.5, 15 12 C 14 8.5, 16 5, 21 5 Z" fill="#1E202E" stroke="#FF65C3" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Velocity Pulse Rail (Top Chamber) -->
+  <line x1="12" y1="9" x2="18" y2="9" stroke="#FFC66D" stroke-width="2" stroke-linecap="round"/>
+  <!-- Velocity Pulse Rail (Bottom Chamber) -->
+  <line x1="12" y1="23" x2="18" y2="23" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Central Inflection Diamond -->
+  <polygon points="15,14.5 16.5,16 15,17.5 13.5,16" fill="#63F5B2"/>
+</svg>
+

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- TOML Industrial Crate Chassis -->
+  <path d="M 6 5 L 26 5 L 28 7 L 28 25 L 26 27 L 6 27 L 4 25 L 4 7 Z" fill="#1E202E" stroke="#FFC66D" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Bold Structural 'T' Beams -->
+  <line x1="8" y1="11" x2="24" y2="11" stroke="#FFC66D" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="16" y1="11" x2="16" y2="23" stroke="#FFC66D" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Corner Telemetry Rivet Nodes -->
+  <circle cx="8" cy="8" r="1.25" fill="#4DEBFF"/>
+  <circle cx="24" cy="8" r="1.25" fill="#4DEBFF"/>
+  <circle cx="8" cy="24" r="1.25" fill="#4DEBFF"/>
+  <circle cx="24" cy="24" r="1.25" fill="#4DEBFF"/>
+  <!-- Core Junction Indicator -->
+  <polygon points="16,9 18,11 16,13 14,11" fill="#63F5B2"/>
+</svg>

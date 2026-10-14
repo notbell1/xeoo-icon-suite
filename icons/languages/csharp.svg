@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Hexagonal Shield Plate -->
+  <path d="M 16 3 L 28 9 L 28 23 L 16 29 L 4 23 L 4 9 Z" fill="#1E202E" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Geometric 'C' Curve -->
+  <path d="M 15 12 L 10.5 12 L 9 16 L 10.5 20 L 15 20" fill="none" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Cyber-Grid '#' Motif -->
+  <line x1="18.5" y1="13" x2="18.5" y2="21" stroke="#4DEBFF" stroke-width="1.75"/>
+  <line x1="22.5" y1="13" x2="22.5" y2="21" stroke="#4DEBFF" stroke-width="1.75"/>
+  <line x1="17" y1="15.5" x2="24" y2="15.5" stroke="#4DEBFF" stroke-width="1.75"/>
+  <line x1="17" y1="18.5" x2="24" y2="18.5" stroke="#4DEBFF" stroke-width="1.75"/>
+  <!-- Central Intersection Core -->
+  <circle cx="20.5" cy="17" r="1" fill="#63F5B2"/>
+</svg>
+

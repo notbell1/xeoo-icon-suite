@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Tabular Matrix Grid Plate -->
+  <path d="M 5 4 L 27 4 L 27 28 L 5 28 Z" fill="#1E202E" stroke="#63F5B2" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Row 1 Separator Rail -->
+  <line x1="5" y1="12" x2="27" y2="12" stroke="#63F5B2" stroke-width="1.75"/>
+  <!-- Row 2 Separator Rail -->
+  <line x1="5" y1="20" x2="27" y2="20" stroke="#63F5B2" stroke-width="1.75"/>
+  <!-- Column Dividing Rail -->
+  <line x1="16" y1="4" x2="16" y2="28" stroke="#4DEBFF" stroke-width="1.75"/>
+  <!-- Comma Delimiter Telemetry Tick -->
+  <path d="M 21.5 15 L 21.5 17 L 19.5 18.5" fill="none" stroke="#FFC66D" stroke-width="1.75" stroke-linecap="round"/>
+  <!-- Matrix Header Node -->
+  <circle cx="10.5" cy="8" r="1.25" fill="#4DEBFF"/>
+</svg>
+

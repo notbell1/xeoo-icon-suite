@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Motion Animation Frame Substrate -->
+  <rect x="4" y="6" width="24" height="20" rx="3" fill="#1E202E" stroke="#63F5B2" stroke-width="2"/>
+  <!-- Film Sprocket Perforations Top -->
+  <line x1="8" y1="8.5" x2="10" y2="8.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="15" y1="8.5" x2="17" y2="8.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="22" y1="8.5" x2="24" y2="8.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Central Motion Play Triangle -->
+  <polygon points="12,12 21,16 12,20" fill="#63F5B2" stroke="#63F5B2" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Looping Animation Velocity Chevron -->
+  <path d="M 22 13 C 24 14.5, 24 17.5, 22 19" fill="none" stroke="#FFC66D" stroke-width="2" stroke-linecap="round"/>
+  <!-- Film Sprocket Perforations Bottom -->
+  <line x1="8" y1="23.5" x2="10" y2="23.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="15" y1="23.5" x2="17" y2="23.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="22" y1="23.5" x2="24" y2="23.5" stroke="#4DEBFF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
+

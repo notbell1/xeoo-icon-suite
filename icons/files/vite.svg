@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Faceted Violet 'V' Frame -->
+  <path d="M 5 6 L 16 27 L 27 6 L 21.5 6 L 16 18 L 10.5 6 Z" fill="#1E202E" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Supersonic Lightning Bolt -->
+  <polygon points="17.5,3 11,14.5 16,14.5 13.5,24 22,12.5 17,12.5" fill="#FFC66D" stroke="#FFC66D" stroke-width="1" stroke-linejoin="round"/>
+  <!-- Telemetry Apex Dot -->
+  <circle cx="16" cy="27" r="1.25" fill="#4DEBFF"/>
+</svg>
+

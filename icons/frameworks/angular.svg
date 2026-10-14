@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Faceted Angular Shield Plate -->
+  <path d="M 16 3 L 28 8 L 25 24 L 16 29 L 7 24 L 4 8 Z" fill="#1E202E" stroke="#FF65C3" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Geometric 'A' Chevron Legs -->
+  <path d="M 10 22 L 16 7 L 22 22" fill="none" stroke="#FF65C3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Telemetry Horizontal Crossbar -->
+  <line x1="11.5" y1="17" x2="20.5" y2="17" stroke="#FFC66D" stroke-width="2" stroke-linecap="round"/>
+  <!-- Apex Telemetry Core Node -->
+  <circle cx="16" cy="11.5" r="1.5" fill="#4DEBFF"/>
+</svg>
+

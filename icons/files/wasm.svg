@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Binary Crystal Prism Chassis -->
+  <polygon points="4,8 16,3 28,8 28,24 16,29 4,24" fill="#1E202E" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Geometric 'W' Telemetry Vector -->
+  <path d="M 8 13 L 11 22 L 16 15 L 21 22 L 24 13" fill="none" stroke="#4DEBFF" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Upper Polar Core Node -->
+  <circle cx="16" cy="9.5" r="1.5" fill="#63F5B2"/>
+</svg>
+

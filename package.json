@@ -1,0 +1,51 @@
+{
+  "name": "xeoo-icon-theme",
+  "displayName": "Xeoo Icon Theme",
+  "description": "A precision-engineered futuristic VS Code File Icon Theme. Minimal, cybernetic, and developer-focused.",
+  "version": "0.1.0",
+  "publisher": "NTTBELL",
+  "icon": "assets/xeoo-icon.png",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icon",
+    "theme",
+    "icons",
+    "file icons",
+    "file-icons",
+    "cyberpunk",
+    "futuristic",
+    "dark",
+    "developer",
+    "xeoo",
+    "nttbell"
+  ],
+  "scripts": {
+    "build": "node src/build.js",
+    "validate": "node src/validate.js",
+    "test": "node src/validate.js",
+    "package": "node src/package.js"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "xeoo-icon-theme",
+        "label": "Xeoo Icons",
+        "path": "./themes/xeoo-icon-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notbell1/xeoo-icon-suite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/notbell1/xeoo-icon-suite/issues"
+  },
+  "homepage": "https://github.com/notbell1/xeoo-icon-suite"
+}

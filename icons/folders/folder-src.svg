@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Back Plate / Tab -->
+  <path d="M 3 6 L 12 6 L 15 9 L 27 9 L 29 11 L 29 26 L 3 26 Z" fill="#12131C" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Front Vault Plate -->
+  <path d="M 3 13 L 5 11 L 13 11 L 15 13 L 17 13 L 19 11 L 27 11 L 29 13 L 29 24 L 27 26 L 5 26 L 3 24 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Source Code Chevrons Motif -->
+  <path d="M 13.5 16.5 L 10.5 19.5 L 13.5 22.5" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 18.5 16.5 L 21.5 19.5 L 18.5 22.5" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="16" cy="19.5" r="1.25" fill="#4DEBFF"/>
+</svg>
+

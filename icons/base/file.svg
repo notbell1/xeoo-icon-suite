@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Expanded Chamfered Data Plate Body (80% Visual Weight) -->
+  <path d="M 4 3 L 21 3 L 28 10 L 28 29 L 4 29 Z" fill="#1E202E" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Corner Chamfer Facet -->
+  <path d="M 21 3 L 21 10 L 28 10 Z" fill="#12131C" stroke="#C5CEDB" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Primary Pulse Telemetry Rail -->
+  <line x1="9" y1="16" x2="23" y2="16" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Secondary Telemetry Rail -->
+  <line x1="9" y1="21" x2="17" y2="21" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+  <!-- Status Telemetry Node -->
+  <polygon points="22,19.5 23.5,21 22,22.5 20.5,21" fill="#4DEBFF"/>
+</svg>

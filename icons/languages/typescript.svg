@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Chamfered Cybernetic Language Plate -->
+  <path d="M 4 4 L 23 4 L 28 9 L 28 28 L 9 28 L 4 23 Z" fill="#1E202E" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Top-Right Chamfer Facet -->
+  <path d="M 23 4 L 23 9 L 28 9 Z" fill="#12131C" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Geometric 'T' Glyph -->
+  <line x1="8" y1="12" x2="16" y2="12" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <line x1="12" y1="12" x2="12" y2="21" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Geometric 'S' Glyph -->
+  <path d="M 23 12 L 17.5 12 L 17.5 16 L 23 16 L 23 20 L 17.5 20" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+

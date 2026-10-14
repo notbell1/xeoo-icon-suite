@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Top Flange Lip -->
+  <line x1="11" y1="5" x2="21" y2="5" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Calibration Flask/Beaker Body -->
+  <path d="M 13 5 L 13 12 L 6 24 C 5 26, 7 27, 9 27 L 23 27 C 25 27, 27 26, 26 24 L 19 12 L 19 5 Z" fill="#1E202E" stroke="#4DEBFF" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Fluid Line / Chemical Reagent -->
+  <line x1="8.5" y1="22" x2="23.5" y2="22" stroke="#FF65C3" stroke-width="2" stroke-linecap="round"/>
+  <!-- Calibration Measurement Ticks -->
+  <line x1="16.5" y1="9" x2="18.5" y2="9" stroke="#FFC66D" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="15.5" y1="13" x2="18.5" y2="13" stroke="#FFC66D" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="13.5" y1="17" x2="17.5" y2="17" stroke="#FFC66D" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Automated Test Target Node -->
+  <polygon points="16,21 17.5,22.5 16,24 14.5,22.5" fill="#63F5B2"/>
+</svg>
+
