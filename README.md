@@ -39,6 +39,57 @@ Designed as the dedicated icon companion to the **[Xeoo Theme Suite](https://git
 
 ---
 
+## 📸 Visual Showcase & Explorer Highlights
+
+> **"Experience Cybernetic Geometry Live in VS Code Explorer"**
+
+Here is the **Xeoo Icon Theme** running live across 96+ real project fixtures, highlighting the high-contrast silhouettes, distinct folder vaults, and sharp glyph motifs:
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <b>1. 📁 Dotfiles, Configs &amp; Web Basics</b><br/>
+        <a href="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-1.png">
+          <img src="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-1.png" alt="Xeoo Icons - Dotfiles, Configs & Web Basics" width="100%" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <b>2. ⚛️ Frameworks &amp; Build Tools</b><br/>
+        <a href="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-2.png">
+          <img src="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-2.png" alt="Xeoo Icons - Frameworks & Build Tools" width="100%" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <b>3. 💻 Modern Languages &amp; Templates</b><br/>
+        <a href="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-3.png">
+          <img src="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-3.png" alt="Xeoo Icons - Modern Languages & Templates" width="100%" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <b>4. ⚙️ Backend, DevOps &amp; Tooling</b><br/>
+        <a href="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-4.png">
+          <img src="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-4.png" alt="Xeoo Icons - Backend, DevOps & Tooling" width="100%" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <details>
+    <summary><b>📂 View Root Workspace &amp; Directory Structure</b></summary>
+    <br/>
+    <p align="center">
+      <img src="https://raw.githubusercontent.com/notbell1/xeoo-icon-suite/main/assets/screenshots/explorer-preview-folders.png" alt="Xeoo Icons - Root Folder Structure" width="340" />
+    </p>
+  </details>
+</div>
+
+---
+
 ## 🛡️ Security & Privacy Guarantee (100% Safe & Audited)
 
 > [!IMPORTANT]
