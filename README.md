@@ -12,7 +12,7 @@
   </p>
 
   <p align="center">
-    <img src="https://img.shields.io/badge/Version-0.1.0-f43f5e?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Version 0.1.0" />
+    <img src="https://img.shields.io/badge/Version-1.0.0-f43f5e?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Version 1.0.0" />
     <img src="https://img.shields.io/badge/Publisher-NTTBELL-10b981?style=for-the-badge&logo=github&logoColor=white" alt="Publisher NTTBELL" />
     <img src="https://img.shields.io/badge/Icons-72%20SVGs-a855f7?style=for-the-badge&logo=artstation&logoColor=white" alt="72 SVG Icons" />
     <img src="https://img.shields.io/badge/Artboard-32×32%20Grid-00f5ff?style=for-the-badge&logo=vectorlogozone&logoColor=white" alt="32x32 Grid" />
