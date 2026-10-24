@@ -102,7 +102,7 @@ Here is the **Xeoo Icon Theme** running live across 96+ real project fixtures, h
 | 🌐 **Offline Native & Zero Telemetry** | 🟢 **Pure Offline** | **Zero network activity**. No `fetch`, `http`, `axios`, or background analytics pings. |
 | 📄 **No Binary Executables** | 🟢 **Pure Vector & JSON** | Contains no `.exe`, `.dll`, `.bat`, or compiled binaries. 100% pure SVG assets and standard VS Code JSON manifests. |
 | 🔒 **Sandboxed Execution** | 🟢 **Declarative Only** | Contributes exclusively via VS Code's `contributes.iconThemes` extension point. Runs with zero process privileges. |
-| 🔍 **Transparent `.vsix` Package** | 🟢 **User-Auditable** | The `.vsix` installer is a standard Open Packaging ZIP archive. Rename `xeoo-icon-theme-0.1.0.vsix` to `.zip` to inspect every file. |
+| 🔍 **Transparent `.vsix` Package** | 🟢 **User-Auditable** | The `.vsix` installer is a standard Open Packaging ZIP archive. Rename `xeoo-icon-theme-1.0.0.vsix` to `.zip` to inspect every file. |
 
 ---
 
@@ -122,12 +122,12 @@ Here is the **Xeoo Icon Theme** running live across 96+ real project fixtures, h
 2. Open the Extensions sidebar with **`Ctrl + Shift + X`** (or **`Cmd + Shift + X`** on macOS).
 3. Click the **three dots (`...`)** (*Views and More Actions*) in the top-right corner of the Extensions view.
 4. Select **`Install from VSIX...`**.
-5. Select the **`xeoo-icon-theme-0.1.0.vsix`** file located in this repository folder and click **Install**.
+5. Select the **`xeoo-icon-theme-1.0.0.vsix`** file located in this repository folder and click **Install**.
 6. **Done! 🎉** Activate it via the theme picker.
 
 > 💡 **Quick Terminal Install:**
 > ```bash
-> code --install-extension xeoo-icon-theme-0.1.0.vsix
+> code --install-extension xeoo-icon-theme-1.0.0.vsix
 > ```
 
 </details>
